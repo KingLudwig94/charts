@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'dart:ui';
+import 'package:flutter_web_ui/ui.dart';
 
 import 'package:charts_common/common.dart' as common
     show
@@ -31,7 +31,7 @@ import 'package:meta/meta.dart' show immutable, required;
 import 'behaviors/chart_behavior.dart'
     show ChartBehavior, ChartStateBehavior, GestureType;
 import 'selection_model_config.dart' show SelectionModelConfig;
-import 'package:flutter/material.dart' show StatefulWidget;
+import 'package:flutter_web/material.dart' show StatefulWidget;
 import 'base_chart_state.dart' show BaseChartState;
 import 'user_managed_state.dart' show UserManagedState;
 

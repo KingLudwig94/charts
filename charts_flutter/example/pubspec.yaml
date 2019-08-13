@@ -4,7 +4,6 @@ dependencies:
   charts_flutter:
     path: ../
   cupertino_icons: ^0.1.0
-  path_provider: any
   flutter_web: any
   meta: ^1.1.1
   intl: ^0.15.2

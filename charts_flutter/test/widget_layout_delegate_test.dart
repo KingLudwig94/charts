@@ -14,9 +14,9 @@
 // limitations under the License.
 
 import 'dart:math' show Rectangle;
-import 'package:flutter/material.dart';
+import 'package:flutter_web_web/material.dart';
 import 'package:mockito/mockito.dart';
-import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_web_web_test/flutter_web_test.dart';
 
 import 'package:charts_common/common.dart' as common
     show BehaviorPosition, InsideJustification, OutsideJustification;

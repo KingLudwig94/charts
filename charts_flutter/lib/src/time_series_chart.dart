@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'dart:collection' show LinkedHashMap;
-import 'dart:ui' as prefix0;
+import 'package:flutter_web_ui/ui.dart' as prefix0;
 
 import 'package:charts_common/common.dart' as common
     show

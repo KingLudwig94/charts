@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:flutter/widgets.dart';
-import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_web_web/widgets.dart';
+import 'package:flutter_web_web_test/flutter_web_test.dart';
 
 import 'package:charts_flutter/flutter.dart' as charts;
 

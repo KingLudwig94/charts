@@ -98,7 +98,7 @@ class AxisTicks<D> extends Tick<D> implements Comparable<AxisTicks<D>> {
 
   /// Linearly interpolate between two numbers.
   ///
-  /// From lerpDouble in dart:ui which is Flutter only.
+  /// From lerpDouble in package:flutter_web_ui/ui.dart which is Flutter only.
   double _lerpDouble(double a, double b, double t) {
     if (a == null && b == null) return null;
     a ??= 0.0;

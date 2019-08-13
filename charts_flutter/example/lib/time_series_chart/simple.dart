@@ -20,11 +20,9 @@ import 'dart:io';
 import 'dart:math';
 // EXCLUDE_FROM_GALLERY_DOCS_END
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
-import 'dart:ui' as ui;
-
-import 'package:path_provider/path_provider.dart';
+import 'package:flutter_web_ui/ui.dart' as ui;
 
 class SimpleTimeSeriesChart extends StatelessWidget {
   final List<charts.Series> seriesList;

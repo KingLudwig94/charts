@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'dart:collection' show LinkedHashMap;
-import 'dart:ui';
+import 'package:flutter_web_ui/ui.dart';
 import 'package:meta/meta.dart' show immutable, protected;
 
 import 'package:charts_common/common.dart' as common
