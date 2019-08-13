@@ -5,11 +5,20 @@ dependencies:
     path: ../
   cupertino_icons: ^0.1.0
   path_provider: any
-  flutter:
-    sdk: flutter
-  flutter_test:
-    sdk: flutter
+  flutter_web: any
   meta: ^1.1.1
   intl: ^0.15.2
 flutter:
   uses-material-design: true
+
+# flutter_web packages are not published to pub.dartlang.org
+# These overrides tell the package tools to get them from GitHub
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
