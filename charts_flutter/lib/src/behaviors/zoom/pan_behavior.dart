@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'dart:math' show max, pow, Point;
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_web_ui/ui.dart' hide Point;
 
 import 'package:flutter_web/widgets.dart' show AnimationController;
 
